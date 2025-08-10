@@ -15,3 +15,6 @@
 
 /*footer CSS*/
 @import url(../blocks/footer.css);
+
+/*fonts CSS*/
+@import url(../vendor/inter-web/inter.css);
