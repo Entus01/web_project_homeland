@@ -1,0 +1,13 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo__image-place {
+    padding: 34px 0 0;
+}
+
+.logo__image {
+    max-width: 255px;
+    max-height: 69px;
+}

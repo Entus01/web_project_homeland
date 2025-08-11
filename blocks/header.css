@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 984px;
+    margin: 92px auto;
+}
+
+.header__title {
+    font-size: 96px;
+    max-width: 720px;
+    font-weight: 900;
+    line-height: 1.04;
+}
+
+.header__title-location {
+    text-align: center;
+    margin: 0 0 32px;
+}
+
+.header__subtitle {
+    max-width: 720px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+}
+.header__subtitle-location {
+    text-align: center;
+    margin: 0 0 64px;
+}
+
+.header__image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
