@@ -1,36 +1,35 @@
 .logo {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .logo__image-place {
-    padding: 34px 0 0;
+  padding: 34px 0 0;
 }
 
 .logo__image {
-    max-width: 255px;
-    max-height: 69px;
+  max-width: 255px;
+  max-height: 69px;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 544px) {
-    .logo__image {
-        max-width: 254px;
-        max-height: 66px;
-    }
+  .logo__image {
+    max-width: 254px;
+    max-height: 66px;
+  }
 
-    .logo__image-place {
-        padding: 30px 0 0;
-    }
-    
+  .logo__image-place {
+    padding: 30px 0 0;
+  }
 }
 
 @media screen and (max-width: 544px) {
-    .logo__image {
-        max-width: 188px;
-        max-height: 52px;
-    }
+  .logo__image {
+    max-width: 188px;
+    max-height: 52px;
+  }
 
-    .logo__image-place {
-        padding: 20px 0 0;
-    }
+  .logo__image-place {
+    padding: 20px 0 0;
+  }
 }
