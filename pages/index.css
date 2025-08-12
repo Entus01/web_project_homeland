@@ -1,17 +1,17 @@
-/*Normalize CSS*/
 @import url(../vendor/normalize.css);
+/*Normalize CSS*/
 
-/*fonts CSS*/
 @import url(../vendor/fonts.css);
+/*fonts CSS*/
 
-/*page CSS*/
 @import url(../blocks/page.css);
+/*page CSS*/
 
-/*logo CSS*/
 @import url(../blocks/logo.css);
+/*logo CSS*/
 
-/*header CSS*/
 @import url(../blocks/header.css);
+/*header CSS*/
 
 /*intro CSS*/
 @import url(../blocks/intro.css);
