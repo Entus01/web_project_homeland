@@ -2,7 +2,7 @@
 @import url(../vendor/normalize.css);
 
 /*fonts CSS*/
-@import url(../vendor/web/inter.css);
+@import url(../vendor/fonts.css);
 
 /*page CSS*/
 @import url(../blocks/page.css);
