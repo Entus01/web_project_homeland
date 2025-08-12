@@ -53,19 +53,19 @@
 
   .intro__title {
     font-size: 32px;
-    line-height: calc(35px / 32px);
+    line-height: 1.09;
     margin: 0 0 40px;
   }
 
   .intro__quote-text {
     font-size: 24px;
-    line-height: calc(30px / 24px);
+    line-height: 1.25;
     padding-bottom: 10px;
   }
 
   .intro__quote-author {
     font-size: 24px;
-    line-height: calc(34px / 24px);
+    line-height: 1.42;
     padding-bottom: 32px;
   }
 
