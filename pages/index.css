@@ -13,8 +13,8 @@
 @import url(../blocks/header.css);
 /*header CSS*/
 
-/*intro CSS*/
-@import url(../blocks/intro.css);
+/*content CSS*/
+@import url(../blocks/content.css);
 
 /*footer CSS*/
 @import url(../blocks/footer.css);
