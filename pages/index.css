@@ -13,11 +13,14 @@
 @import url(../blocks/header.css);
 /*header CSS*/
 
-/*content CSS*/
 @import url(../blocks/content.css);
+/*content CSS*/
 
-/*footer CSS*/
+@import url(../blocks/intro.css);
+/*intro CSS*/
+
 @import url(../blocks/footer.css);
+/*footer CSS*/
 
-/*puntos dde ruptura*/
+/*puntos de ruptura*/
 /*544 y 1024*/
