@@ -7,14 +7,14 @@
 @import url(../blocks/page.css);
 /*page CSS*/
 
-@import url(../blocks/logo.css);
-/*logo CSS*/
-
 @import url(../blocks/header.css);
 /*header CSS*/
 
 @import url(../blocks/content.css);
 /*content CSS*/
+
+@import url(../blocks/lead.css);
+/*lead CSS*/
 
 @import url(../blocks/intro.css);
 /*intro CSS*/

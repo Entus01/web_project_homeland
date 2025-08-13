@@ -3,16 +3,3 @@
     display: flex;
     justify-content: center;
 }
-
-@media screen and (max-width: 1024px) and (min-width: 544px) {
-
-    .content {
-        margin: 0 auto 88px;
-    }
-}
-
-@media screen and (max-width: 544px) {
-    .content {
-        margin: 0 auto 64px;
-    }
-}
