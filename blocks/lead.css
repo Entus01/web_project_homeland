@@ -21,7 +21,7 @@
     max-width: 720px;
     width:100%;
     margin: 0;
-    padding-bottom: 64px;
+    padding: 0 16px 64px;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.2;
@@ -29,6 +29,7 @@
 
 .lead__image {
     max-width: 984px;
+    width: 100%;
     margin: 0;
 }
 
@@ -52,6 +53,30 @@
     
     .lead__image {
         max-width: 768px;
-        padding-bottom: 48px;
     }
+}
+
+@media screen and (max-width: 544px) {
+    .lead {
+        max-width: 320px;
+        padding-bottom: 64px;
+    }
+    .lead__title {
+        max-width: 228px;
+        padding-bottom: 16px;
+        font-size: 40px;
+        line-height: 1.1;
+    }
+    
+    .lead__subtitle {
+        max-width: 288px;
+        padding-bottom: 40px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    
+    .lead__image {
+        max-width: 320px;
+    }
+    
 }
