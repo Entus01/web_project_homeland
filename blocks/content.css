@@ -1,7 +1,13 @@
 .content {
     margin: 0;
-    padding: 0 0 92px;
+    padding-bottom: 92px;
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1028px) and (min-width: 544px) {
+    .content {
+        padding-bottom: 88px;
+    }
 }
