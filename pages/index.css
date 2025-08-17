@@ -1,26 +1,16 @@
 @import url(../vendor/normalize.css);
-/*Normalize CSS*/
 
 @import url(../vendor/fonts.css);
-/*fonts CSS*/
 
 @import url(../blocks/page.css);
-/*page CSS*/
 
 @import url(../blocks/header.css);
-/*header CSS*/
 
 @import url(../blocks/content.css);
-/*content CSS*/
 
 @import url(../blocks/lead.css);
-/*lead CSS*/
 
 @import url(../blocks/intro.css);
-/*intro CSS*/
 
 @import url(../blocks/footer.css);
-/*footer CSS*/
 
-/*puntos de ruptura*/
-/*544 y 1024*/
