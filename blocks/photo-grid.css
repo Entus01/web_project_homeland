@@ -1,0 +1,15 @@
+.photo-grid {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px 16px;
+    padding-bottom: 92px;
+    padding-right: 10px;
+}
+
+.photo-grid__image {
+    width: 100%;
+    max-width: 284px;
+    object-fit: contain;
+}

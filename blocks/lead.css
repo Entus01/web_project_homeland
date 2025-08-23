@@ -1,7 +1,7 @@
 .lead {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     max-width: 984px;
     text-align: center;
     padding-bottom: 92px;
@@ -21,7 +21,7 @@
     max-width: 720px;
     width:100%;
     margin: 0;
-    padding: 0 16px 64px;
+    padding-bottom: 64px;
     font-size: 30px;
     font-weight: 400;
     line-height: 1.2;
@@ -59,7 +59,7 @@
 @media screen and (max-width: 544px) {
     .lead {
         max-width: 320px;
-        padding-bottom: 64px;
+        padding: 0 16px 64px;
     }
     .lead__title {
         max-width: 228px;
