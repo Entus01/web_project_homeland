@@ -1,20 +1,6 @@
 .content {
     margin: 0;
-    padding-bottom: 92px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1028px) and (min-width: 544px) {
-    .content {
-        padding-bottom: 88px;
-    }
-}
-
-@media screen and (max-width: 544px) {
-    .content {
-        padding-bottom: 64px;
-    }
-    
 }
