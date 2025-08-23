@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 984px;
+    max-width: 987px;
 }
 
 .place {
+    max-width: 984px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, auto);
@@ -90,10 +91,18 @@
 }
 
 .place__description {
-    margin: 0;
     grid-row: span 3;
+}
+
+.place__description_line {
+    margin: 0;
     max-width: 484px;
     font-size: 18px;
     font-weight: 400;
     line-height: 1.63;
+    padding-bottom: 25px;
+}
+
+.place__description_line:last-child {
+    padding-bottom: 0;
 }
