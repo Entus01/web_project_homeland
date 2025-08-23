@@ -1,0 +1,41 @@
+.places {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 984px;
+}
+
+.place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.place__column {
+
+}
+
+.place__title {
+
+}
+
+.place__image {
+    width: 100%;
+    max-width: 468px;
+    object-fit: contain;
+}
+
+.place__frame {
+
+}
+
+.place__artist-name {
+
+}
+
+.place__artist {
+
+}
+
+.place__description {
+
+}
