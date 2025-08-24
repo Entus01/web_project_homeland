@@ -6,7 +6,7 @@
     width: calc(100% - 32px);
 }
 
-.place {
+.places__item {
     max-width: 984px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -15,11 +15,11 @@
     padding-bottom: 80px;
 }
 
-.place:last-child {
+.places__item:last-child {
     padding-bottom: 0;
 }
 
-.place__title {
+.places__title {
     margin: 0;
     max-width: 100%;
     font-size: 72px;
@@ -28,7 +28,7 @@
     text-align: start;
 }
 
-.place__image {
+.places__image {
     width: 100%;
     padding-bottom: 1%;
     max-width: 460px;
@@ -36,12 +36,12 @@
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
-.place__image:hover {
+.places__image:hover {
     cursor: pointer;
     filter: brightness(50%);
 }
 
-.place__frame_gradient {
+.places__frame_gradient {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
-.place__frame {
+.places__frame {
     margin: 0;
     max-width: 289px;
     height: 48px;
@@ -58,12 +58,12 @@
     line-height: 1;
 }
 
-.place__frame:hover {
+.places__frame:hover {
     cursor: pointer;
     filter: brightness(50%);
 }
 
-.place__artist-name {
+.places__artist-name {
     max-width: 456px;
     align-self: flex-end;
     margin: 0;
@@ -72,7 +72,7 @@
     line-height: 1.22;
 }
 
-.place__artist-span {
+.places__artist-span {
     margin: 0;
     font-size: 12px;
     font-weight: 400;
@@ -80,21 +80,21 @@
     letter-spacing: 1px;
 }
 
-.place__artist-link {
+.places__artist-link {
     color: inherit;
     text-decoration: underline;
 }
 
-.place__artist-link:hover {
+.places__artist-link:hover {
     cursor: pointer;
     filter: brightness(50%);
 }
 
-.place__description {
+.places__description {
     grid-row: span 3;
 }
 
-.place__description_line {
+.places__description_line {
     margin: 0;
     max-width: 484px;
     font-size: 18px;
@@ -103,7 +103,7 @@
     padding-bottom: 25px;
 }
 
-.place__description_line:last-child {
+.places__description_line:last-child {
     padding-bottom: 0;
 }
 
@@ -112,32 +112,32 @@
         max-width: 720px;
     }
 
-    .place {
+    .places__item {
         max-width: 100%;
         gap: 48px 28px;
         padding-bottom: 72px;
     }
 
-    .place__title {
+    .places__title {
         max-width: 340px;
         font-size: 42px;
         line-height: 1.09;
     }
 
-    .place__image {
+    .places__image {
         max-width: 340px;
     }
 
-    .place__frame {
+    .places__frame {
         font-size: 18px;
         line-height: 1;
     }
 
-    .place__artist-name {
+    .places__artist-name {
         max-width: 352px;
     }
 
-    .place__description_line {
+    .places__description_line {
         max-width: 352px;
         font-size: 16px;
     }
@@ -148,33 +148,37 @@
         max-width: 320px;
     }
 
-    .place {
+    .places__item {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, auto);
         gap: 30px 0;
         padding-bottom: 50px;
     }
 
-    .place__title {
+    .places__title {
         max-width: 288px;
         font-size: 32px;
     }
 
-    .place__image {
+    .places__image {
         max-width: 100%;
     }
 
-    .place__frame {
+    .places__frame {
         max-width: 320px;
         width: calc(100% - 32px);
         font-size: 14px;
     }
 
-    .place__artist-name {
+    .places__artist-name {
         width: calc(100% - 32px);
     }
 
-    .place__description_line {
+    .places__description {
+        max-width: 320px;
+    }
+
+    .places__description_line {
         width: calc(100% - 32px);
         font-size: 16px;
     }
