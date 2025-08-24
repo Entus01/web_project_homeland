@@ -77,7 +77,7 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 1;
-    letter-spacing: 12%;
+    letter-spacing: 1px;
 }
 
 .place__artist-link {
@@ -135,7 +135,6 @@
 
     .place__artist-name {
         max-width: 352px;
-
     }
 
     .place__description_line {
@@ -162,7 +161,7 @@
     }
 
     .place__image {
-        max-width: 288px;
+        max-width: 100%;
     }
 
     .place__frame {
