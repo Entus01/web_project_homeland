@@ -41,15 +41,12 @@
     filter: brightness(50%);
 }
 
-.places__frame_gradient {
+.places__frame {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(90deg, #0278fe 0%, #003a7b 100%);
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-}
-
-.places__frame {
     margin: 0;
     max-width: 289px;
     height: 48px;
@@ -72,7 +69,7 @@
     line-height: 1.22;
 }
 
-.places__artist-span {
+.places__span {
     margin: 0;
     font-size: 12px;
     font-weight: 400;
@@ -94,7 +91,7 @@
     grid-row: span 3;
 }
 
-.places__description_line {
+.places__text {
     margin: 0;
     max-width: 484px;
     font-size: 18px;
@@ -103,7 +100,7 @@
     padding-bottom: 25px;
 }
 
-.places__description_line:last-child {
+.places__text:last-child {
     padding-bottom: 0;
 }
 
@@ -137,7 +134,7 @@
         max-width: 352px;
     }
 
-    .places__description_line {
+    .places__text {
         max-width: 352px;
         font-size: 16px;
     }
@@ -174,11 +171,7 @@
         width: calc(100% - 32px);
     }
 
-    .places__description {
-        max-width: 320px;
-    }
-
-    .places__description_line {
+    .places__text {
         width: calc(100% - 32px);
         font-size: 16px;
     }
