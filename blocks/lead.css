@@ -59,7 +59,7 @@
 @media screen and (max-width: 544px) {
     .lead {
         max-width: 320px;
-        padding: 0 16px 64px;
+        padding-bottom: 64px;
     }
     .lead__title {
         max-width: 228px;
