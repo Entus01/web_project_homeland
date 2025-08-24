@@ -24,6 +24,20 @@
     }
 
     .photo-grid__image {
-        max-width: 352px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .photo-grid {
+        max-width: 288px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        gap: 12px 0;
+        padding-bottom: 62px;
+    }
+
+    .photo-grid__image {
+        max-width: 288px;
     }
 }

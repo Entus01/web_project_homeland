@@ -46,7 +46,8 @@
 @media screen and (max-width: 1028px) and (min-width: 544px) {
     .intro {
         max-width: 720px;
-        padding: 0 24px 64px;
+        width: calc(100% - 32px);
+        padding-bottom: 64px;
     }
     .intro__title {
         max-width: 707px;
